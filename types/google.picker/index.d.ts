@@ -80,7 +80,7 @@ declare namespace google {
          */
         export interface Picker {
             isVisible(): boolean;
-            setCallback():Picker;
+            setCallback(method:Function):Picker;
             setRelayUrl(url:string):Picker;
             setVisible(visible:boolean):Picker;
         }
