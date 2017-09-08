@@ -15,4 +15,6 @@ var createPicker = () => {
         .setOrigin("origin")
         .build();
     picker.setVisible(true);
+    
+    picker.setCallback(() => {});
 };
